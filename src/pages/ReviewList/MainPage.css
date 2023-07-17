@@ -1,0 +1,41 @@
+
+.review-list {
+    padding: 0 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-4px);
+}
+
+.review:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.review-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.review-text {
+    margin: 8px 0;
+    color: #555;
+}
+
+.review-date {
+    margin-top: 8px;
+    color: #888;
+    font-size: 12px;
+}
+

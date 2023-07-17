@@ -1,0 +1,31 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px;
+    background-color: rgba(136, 136, 136, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    align-self: center;
+}
+
+.header-right-block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.watch {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
